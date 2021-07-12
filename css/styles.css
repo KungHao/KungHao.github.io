@@ -7577,8 +7577,16 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.text-black-75 {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 .text-reset {
@@ -7639,6 +7647,8 @@ textarea.form-control-lg {
 
 .bg-rice {
   background-color: #F9F7F5 !important;
+  /*background-color:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 50%); !important;*/
+
 }
 
 .user-select-all {
@@ -11136,7 +11146,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/header.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 50%, #000 100%), url("../assets/img/圖片 1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11178,9 +11188,13 @@ body {
   }
 }
 
+.masthead img, .masthead .img {
+  width: 128px;
+}
+
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 5%, rgba(100, 100, 100, 0.9) 60%, rgba(200, 200, 200, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 5%, rgba(100, 100, 100, 0.9) 60%, rgba(175, 175, 175, 1.0) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
