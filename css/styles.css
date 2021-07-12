@@ -7637,6 +7637,10 @@ textarea.form-control-lg {
   background-image: var(--bs-gradient) !important;
 }
 
+.bg-rice {
+  background-color: #F9F7F5 !important;
+}
+
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
@@ -11176,7 +11180,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 5%, rgba(200, 200, 200, 0.9) 75%, rgba(255, 255, 255, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 5%, rgba(100, 100, 100, 0.9) 60%, rgba(200, 200, 200, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11184,6 +11188,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  /*background: rgb(100, 100, 100);*/
 }
 .projects-section .featured-text {
   padding: 2rem;
